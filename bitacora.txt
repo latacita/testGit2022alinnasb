@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(22)	add bitacora.txt
+(23)	commit -m "Paso 23"
+(24)	checkout master
+(25)	Se realizara una fusión recursiva con conflictos porque los 
+	cambios son en partes idénticas del archivo.
