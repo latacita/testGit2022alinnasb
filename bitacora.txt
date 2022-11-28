@@ -9,3 +9,5 @@
 (3)	branch Historia000
 (4)	branch Historia001
 (5)	checkout Historia000
+(11)	stash
+	checkout Historia000
