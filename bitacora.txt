@@ -1,15 +1,21 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Solonaru, Alina                      %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(3)	branch Historia000
+(4)	branch Historia001
+(5)	checkout Historia000
 (7)	add bitacora.txt
 (8)	commit -m "Paso 08"
 (9)	checkout Historia001
+(11)	stash
+	checkout Historia000
 (13)	add bitacora.txt
 (14)	commit -m "Paso 14"
 (15)	checkout Historia001
 (16)	stash apply
+
