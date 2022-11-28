@@ -1,11 +1,33 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Solonaru, Alina                      %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(3)	branch Historia000
+(4)	branch Historia001
+(5)	checkout Historia000
+(7)	add bitacora.txt
+(8)	commit -m "Paso 08"
+(9)	checkout Historia001
+(11)	stash
+	checkout Historia000
+(13)	add bitacora.txt
+(14)	commit -m "Paso 14"
+(15)	checkout Historia001
+(16)	stash apply
+(19)	commit -m "Paso 19"
+(20)	merge Historia000		Al realizar la fusión, se 
+					produce un error porque existen 
+					conflictos en el archivo bitacora.txt.
+					Se resuelven los conflictos y se 
+					ordenan los pasos.
+					La fusión es recursiva con conflictos 
+					porque los cambios han sido en partes
+					idénticas del archivo.
+	commit -m "Resolver conflicto"
 (22)	add bitacora.txt
 (23)	commit -m "Paso 23"
 (24)	checkout master
