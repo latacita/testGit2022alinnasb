@@ -18,4 +18,14 @@
 (14)	commit -m "Paso 14"
 (15)	checkout Historia001
 (16)	stash apply
+(19)	commit -m "Paso 19"
+(20)	merge Historia000		Al realizar la fusión, se 
+					produce un error porque existen 
+					conflictos en el archivo bitacora.txt.
+					Se resuelven los conflictos y se 
+					ordenan los pasos.
+					La fusión es recursiva con conflictos 
+					porque los cambios han sido en partes
+					idénticas del archivo.
+	commit -m "Resolver conflicto"
 
