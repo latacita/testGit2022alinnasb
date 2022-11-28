@@ -11,3 +11,10 @@
 (24)	checkout master
 (25)	Se realizara una fusión recursiva con conflictos porque los 
 	cambios son en partes idénticas del archivo.
+(26)	add bitacora.txt
+	commit -m "Paso 26"
+(27)	tag RespuestaPreguntaFusion
+(28)	push				Error porque mi repositorio 
+					local no esta actualizado.
+	pull
+	push
