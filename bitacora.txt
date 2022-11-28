@@ -40,3 +40,15 @@
 					local no esta actualizado.
 	pull
 	push
+(30)	add bitacora.txt
+	commit -m "Paso 30"
+(31)	merge Historia001		Al realizar la fusión, se 
+					produce un error porque existen 
+					conflictos en el archivo bitacora.txt.
+					Se resuelven los conflictos y se 
+					ordenan los pasos.
+					La fusión es recursiva con conflictos 
+					porque los cambios han sido en partes
+					idénticas del archivo.
+	add bitacora.txt
+	commit -m "Resolver conflicto"
